@@ -1,7 +1,24 @@
 #Nav ul li:hover {
-  color: blue; /* Change color on hover */
+  color: #024daa; 
+  text-decoration: underline;
 }
 
 .active-link {
-  color: blue;
+  color: #024daa !important;
+  /* text-decoration: underline; */
 }
+
+.custom-button {
+  background-color: transparent !important;
+  border-color: #019fdc; 
+  color: #019fdc;
+}
+
+.custom-button:hover {
+  border-color: #024daa;
+  color: #024daa;
+}
+
+/* #Nav ul li:active {
+  color: blue ;
+} */
